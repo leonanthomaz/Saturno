@@ -1,9 +1,9 @@
 export default {
-apiKey: "AIzaSyDJrZfL3JL6ktWwQaL859wxWyO0s0CXi74",
-authDomain: "teste1-40b0e.firebaseapp.com",
-projectId: "teste1-40b0e",
-storageBucket: "teste1-40b0e.appspot.com",
-messagingSenderId: "12278545409",
-appId: "1:12278545409:web:2d454db5569701ab50d400",
-measurementId: "G-D9MW4XXKQG"
+    apiKey: "AIzaSyAppBtzr122HYHGjkQ6LXO7ZAZ4oKLuprc",
+    authDomain: "saturno-2e69e.firebaseapp.com",
+    projectId: "saturno-2e69e",
+    storageBucket: "saturno-2e69e.appspot.com",
+    messagingSenderId: "846892097899",
+    appId: "1:846892097899:web:4a7809e07aabfe129cec2e",
+    measurementId: "G-F3CG38JQZB"
 };
