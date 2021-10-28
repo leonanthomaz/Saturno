@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #D2DBDC;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-size:auto;
+  background-position:center;
+  background-image: url('./assets/cartoon-cloud-sky-background-1.jpg');
+  
+}
+
+.app-window {
+  border: 2px solid #fff;
+
+}
+
+.sidebar{
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  width: 300px; 
+  height: 100vh;
+  background-color: rgb(15, 188, 231);
+  transition: all ease 0.5s;
+
+
+}
+
+header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-bottom: 1px solid #EEE;
+
+  
+}
+
+
+.header-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-buttons{
+  display: flex;
+}
+
+.header-btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.search{
+  border-bottom: 1px solid #EEE;
+  padding: 5px 15px;
+}
+
+.search-input{
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+
+}
+
+.search-input input{
+  flex: 1;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.chatlist::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
+
+.chatlist::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.2);
+}
+

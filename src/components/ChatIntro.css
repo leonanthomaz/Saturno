@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.chatintro{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    margin: auto;
+}
+
+@media  (max-width: 760px){
+    .chatintro{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: auto;
+    }
+
+}
+
+.chatintro{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media  (min-width: 760px){
+
+    .chatintro{
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+.chatintro img{
+    width: 200px;
+    height: auto;
+}
+
+.chatintro h1{
+    font-size: 32px;
+    color: #3d3d3d;
+    font-weight: normal;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.chatintro h2{
+    font-size: 14px;
+    color: #3d3d3d;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.chatIcon{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+}
+
